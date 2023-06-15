@@ -8,9 +8,9 @@ namespace WebApplication8.Services
 {
     public class MailService
     {
-        private string gmail_account = "david902177@gmail.com";
-        private string gmail_password = "aaa70155";
-        private string gmail_mail = "david902177@gmail.com";
+        private string gmail_account = "";
+        private string gmail_password = "";
+        private string gmail_mail = "";
         public string GetValidateCode()
         {
             string[] Code = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U",
